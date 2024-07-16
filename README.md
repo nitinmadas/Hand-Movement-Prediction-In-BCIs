@@ -47,7 +47,7 @@ The components of the BCICW model
 * Because of whitening in the channel direction, the independent eigenface for each class is unique and distinguishable. In addition, the Euclidean distance between the coefficients of left and right classes has been increased. Those contributions result in improved accuracy and a reduced variance.
 
 ## Code
-The [Automated_BCICW_EFA_LDA.py](https://github.com/KJ-999/Controlling-Machines-with-Human-Brain/blob/main/Automated_BCICW_EFA_LDA.ipynb) loads the data using pickle and apply two approaches : 
+The [Automated_BCICW_EFA_LDA.py](https://github.com/nitinmadas/Hand-Movement-Prediction-In-BCIs/blob/main/Automated_BCICW_EFA_LDA.ipynb) loads the data using pickle and apply two approaches : 
 1. In first approach we applied **EFA** & **LDA** **without** applying the [Whitening Technique](https://www.mdpi.com/1424-8220/22/16/6042) on each subject. Calculated the accuracy for each subject and variance in accuracy among subjects to compare with the second approach.
 2. Next we applied **EFA & LDA with** [Whitening Technique](https://www.mdpi.com/1424-8220/22/16/6042) on each subject and again calculated accuracy and variance in accuracy among subjects.
 
